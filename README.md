@@ -23,4 +23,51 @@ By the end of this course, you will be able to:
 - Case studies on **real-world security incidents** and AI-assisted investigations.
 - Ethical considerations and **responsible AI usage** in cybersecurity.
 
-## 📂 Repository Structure
+## 📂 Sample Prompts : # 
+
+🧑‍💻 Example Prompts for Copilot in Cybersecurity Log Analysis
+
+These prompts are designed to help you experiment with **Copilot for Security** (or other generative AI tools) when analyzing logs.  
+You can adapt them to your own environment, log formats, and security use cases.
+
+---
+
+## 🔍 Log Parsing & Summarization
+- *"Summarize the key events in this Windows Event Log snippet and highlight any unusual activity."*
+- *"Parse this Apache access log and identify the top 5 IP addresses by request volume."*
+- *"From this firewall log, extract all denied connections and group them by source IP."*
+
+---
+
+## 🚨 Threat Detection
+- *"Analyze this log for signs of brute-force login attempts. Provide evidence and reasoning."*
+- *"Identify any suspicious PowerShell commands in this log snippet and explain why they may be risky."*
+- *"Look for indicators of lateral movement in these authentication logs."*
+
+---
+
+## 📊 Pattern Recognition
+- *"Detect anomalies in this 24-hour log dataset. Which events deviate most from the baseline?"*
+- *"Group these log entries by user account and summarize their activity patterns."*
+- *"Identify repeated failed login attempts followed by a successful login from the same IP."*
+
+---
+
+## 🛡️ Incident Response Support
+- *"Generate a timeline of events from this log to support an incident investigation."*
+- *"Correlate these IDS alerts with firewall logs to determine if the attack was successful."*
+- *"Provide a plain-language summary of this log data for a non-technical executive report."*
+
+---
+
+## ⚖️ Responsible AI Use
+- *"Explain the limitations of using AI for detecting threats in this log sample."*
+- *"Highlight where human analyst review is still required after this AI-assisted analysis."*
+
+---
+
+💡 **Tip:** When using these prompts, always:
+- Provide **context** (e.g., type of log, timeframe, suspected issue).
+- Ask for **explanations**, not just answers, to understand the AI’s reasoning.
+- Validate AI findings with your own expertise and other tools.
+
